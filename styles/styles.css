@@ -1,0 +1,139 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 5px; 
+    background-color: #E4E3E2;
+}
+
+.brand-container {
+    display: flex;
+    align-items: center;
+}
+
+.brand-logo {
+    width: 80px;
+    height: 80px;
+}
+
+.brand-name {
+    margin-left: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-links {
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black; 
+    margin-left: 10px;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.nav-link.hover {
+    background-color: #aeb4b9;
+}
+
+.nav-link.active {
+    background-color: #aeb4b9; 
+}
+
+main {
+    width: 100%;
+    margin: auto;
+    background-color: #f2f2f2
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.our-story {
+    flex-direction: row;
+    padding: 20px;
+}
+
+.our-product {
+    flex-direction: row-reverse;
+    padding:20px;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+}
+
+.text {
+    max-width: 50%;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+}
+
+.form-group label {
+    color: black;
+}
+
+.form-group .message {
+    vertical-align: top;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px; 
+}
+
+.form-group textarea {
+    height: 100px; 
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #E4E3E2; 
+    color: black;
+    border: none;
+    border-radius: 4px;
+}
+
+button[type="submit"]:hover {
+    background-color: #9f9c9f;
+}
+
+footer {
+    text-align:center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    background-color: #E4E3E2;
+    padding: 10px;
+}
+
+footer a img {
+    width: 24px;
+    height: 24px;
+    margin: 2px;
+    vertical-align: middle;
+}
+
+footer a {
+    color: inherit;
+}
+
+footer a:hover {
+    opacity: 0.7;
+}
